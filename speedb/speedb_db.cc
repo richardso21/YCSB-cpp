@@ -12,13 +12,13 @@
 #include "core/db_factory.h"
 #include "utils/utils.h"
 
-#include <rocksdb/cache.h>
-#include <rocksdb/filter_policy.h>
-#include <rocksdb/merge_operator.h>
-#include <rocksdb/status.h>
-#include <rocksdb/table.h>
-#include <rocksdb/utilities/options_util.h>
-#include <rocksdb/write_batch.h>
+#include "speedb/include/rocksdb/cache.h"
+#include "speedb/include/rocksdb/filter_policy.h"
+#include "speedb/include/rocksdb/merge_operator.h"
+#include "speedb/include/rocksdb/status.h"
+#include "speedb/include/rocksdb/table.h"
+#include "speedb/include/rocksdb/utilities/options_util.h"
+#include "speedb/include/rocksdb/write_batch.h"
 
 namespace {
   const std::string PROP_NAME = "speedb.dbname";

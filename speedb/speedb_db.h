@@ -14,8 +14,8 @@
 #include "core/db.h"
 #include "utils/properties.h"
 
-#include <rocksdb/db.h>
-#include <rocksdb/options.h>
+#include "speedb/include/rocksdb/db.h"
+#include "speedb/include/rocksdb/options.h"
 
 namespace ycsbc {
 
